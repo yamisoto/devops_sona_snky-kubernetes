@@ -13,11 +13,11 @@ spec:
         app: asgbuggy
     spec:
       containers:
-      - name: asgbuggy
-        image: 145988340565.dkr.ecr.us-west-2.amazonaws.com/asg
-        imagePullPolicy: Always
+      - name:  asgbuggy
+        image:  516367351953.dkr.ecr.us-west-2.amazonaws.com/asg
+        imagePullPolicy:  Always
         ports:
-        - containerPort: 8080
+        - containerPort:  8080
 # service type loadbalancer       
 ---
 apiVersion: v1
